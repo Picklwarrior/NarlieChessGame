@@ -1,0 +1,29 @@
+Rip graphics file from old folder to make a chess board.
+  Alternate colors, white to the right
+  Add piece Icons
+
+
+QOL functions:
+functionName(INPUT VALUES) = RETURN VALUE:
+    what it should do
+
+NewGame: 
+    wipe the board, and make new pieces in the right spots
+    Could just be a loadGame of the standard chess board
+    
+SaveGame:
+    save piece locations
+    save the moves that have happened in the game so far?
+
+LoadGame:
+    load up piece locations
+    
+AddPiece(x1,y1,pieceType):
+    adds a piece tothe board
+    
+RemovePiece(x1,y1) = piecetype:
+    removes a piece from the board
+    
+MovePiece(x1,y1,x2,y2):
+    removes the piece from the square, learns what kind of piece it is
+    adds the piece to a new square
